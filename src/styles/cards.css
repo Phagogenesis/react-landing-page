@@ -1,0 +1,41 @@
+.cards-style{
+    display: flex; 
+    margin-top: 2rem; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.text {
+    background: lightgray;
+    border-radius: 0 0 6px 6px;
+    font: bold;
+    font-size: 1vw;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.article-style{
+    margin-top: 1rem; 
+    font-weight: bold; 
+    text-align: center; 
+    color: #ffffff; 
+    color: 1.4rem;
+    font-size: 1.5vw;
+  }
+
+@media (min-width: 1024px) { 
+    .cards-style {
+        flex-direction: row;
+        gap: 20px;  
+    }
+
+
+} 

@@ -1,0 +1,43 @@
+.heromain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.herobox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.hero {
+  width: 30%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.btn {
+  width: 30%;
+  font-size: x-large;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  width: max-content;
+  padding: 20px;
+}
+
+.out-header{
+  color: white;
+  font-size: 80px;
+}
+
+.second-header{
+  color: white;
+  font-size: 30px;
+  width: max-content;
+}
+
+
